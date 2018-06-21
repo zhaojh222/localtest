@@ -1,0 +1,12 @@
+server:
+  port: 8086
+  context-path: /localtest
+logging:
+  level: info
+  path: /tmp
+  file: localtest.log
+#  ssl:
+#    key-store: .keystore
+#    key-password: QWEr!@#4
+#    key-alias: localtest
+#    key-store-password: QWEr!@#4
